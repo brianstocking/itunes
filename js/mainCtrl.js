@@ -65,7 +65,7 @@ app.controller('mainCtrl', function ($scope, itunesService) {
           song: songs[i].trackName,
           Collection: songs[i].collectionName,
           CollectionPrice: songs[i].collectionPrice,
-          Play: songs[i].trackName,
+          Play: songs[i].previewUrl,
           Type: songs[i].primaryGenreName
         })
       }
