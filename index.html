@@ -18,7 +18,10 @@
         <form class="navbar-form navbar-left" role="search" ng-submit="getSongData()">
           <div class="form-group">
             <input type="text" class="form-control" ng-model="artist" placeholder="Artist Name">
+
+
             <button class="btn btn-primary"> Submit </button>
+            <input type="text" class="form-control ng-valid ng-dirty" placeholder="Search Data" ng-model="filterOptions.filterText">
           </div>
         </form>
       </div>
